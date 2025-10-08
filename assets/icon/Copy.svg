@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <g id="Copy" transform="translate(-662 -470)">
+    <g id="Ellipse_1451" data-name="Ellipse 1451" transform="translate(662 470)" fill="#fff" stroke="#ddf" stroke-width="2">
+      <circle cx="21" cy="21" r="21" stroke="none"/>
+      <circle cx="21" cy="21" r="20" fill="none"/>
+    </g>
+    <g id="copy-link" transform="translate(-10 294)">
+      <g id="Group_6267" data-name="Group 6267" transform="translate(684 188)">
+        <path id="Path_8842" data-name="Path 8842" d="M10.177,4.636H8.541A2.434,2.434,0,0,1,6.106,2.2V.565A.564.564,0,0,0,5.541,0H3.151A2.984,2.984,0,0,0,0,3.151V8.157a2.984,2.984,0,0,0,3.151,3.151H7.6a2.984,2.984,0,0,0,3.147-3.151V5.2a.564.564,0,0,0-.565-.566Z" transform="translate(1.508 5.185)" fill="#5c3a8f"/>
+        <path id="Path_8843" data-name="Path 8843" d="M7.584,0H3.144A2.975,2.975,0,0,0,0,3.022c.045,0,.083-.007.128-.007h4.44A2.984,2.984,0,0,1,7.719,6.166V11.18c0,.045-.007.083-.007.12a2.965,2.965,0,0,0,3.023-3.136V3.151A2.984,2.984,0,0,0,7.584,0Z" transform="translate(5.758 1.508)" fill="#5c3a8f"/>
+        <path id="Path_8844" data-name="Path 8844" d="M.633.111A.369.369,0,0,0,0,.362V2.336A1.537,1.537,0,0,0,1.561,3.843c.535.007,1.281.007,1.922.007a.354.354,0,0,0,.264-.6C2.925,2.426,1.462.956.633.111Z" transform="translate(8.344 5.245)" fill="#5c3a8f"/>
+        <path id="Path_8845" data-name="Path 8845" d="M0,0H18V18H0Z" transform="translate(18 18) rotate(180)" fill="none" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>
