@@ -1,602 +1,142 @@
 @media (max-width: 767px) {
-  .sidemenu_btn {
-    display: block !important;
+  .left-right-pad-60 {
+    padding: 0px !important;
   }
-
-  .banner-img {
+  .hero-left {
+    width: 100% !important;
+    padding: 10px 20px !important;
+  }
+  .hero-right {
     width: 100% !important;
   }
-
-  .features {
-    padding: 20px 0px !important;
-    margin: 20px 0px !important;
-  }
-
-  .feature-img {
-    width: 100%;
-  }
-
-  .download-section {
-    padding: 60px 10px 20px 10px !important;
-    text-align: center;
-  }
-
-  .mySlides {
-    padding: 30px 40px !important;
-    text-align: center;
-  }
-
-  .get-started {
-    margin: auto;
-    margin-bottom: 20px;
-  }
-
-  .download-store {
-    flex-direction: row !important;
-    gap: 9px !important;
-    margin-top: 30px;
-  }
-
-  .copy-rights-mobile {
-    margin: auto;
-    text-align: center;
-    font-size: 14px;
-    margin-top: 10px;
-  }
-
-  .p-mob {
-    color: black !important;
-    font-size: 15px;
-    justify-content: center;
-  }
-
-  .feature-dot .dot {
-    width: 20px !important;
-  }
-
-  .feature-dot .dot.active,
-  .dot:focus {
-    width: 20px;
-  }
-
-  .mob-prev {
-    width: 28px;
-  }
-
-  .width-100-percent {
-    width: 100%;
-  }
-
-  .slide-bg {
-    padding-bottom: 0px !important;
-  }
-
-  .mob-mt-20 {
-    margin-top: 20px !important;
-  }
-
-  .glider {
-    height: 35px !important;
-    width: 129px !important;
-  }
-
-  .label-row {
-    flex-direction: column !important;
-    justify-content: space-around;
-  }
-
-  .schedule-label {
-    padding: 20px 40px !important;
-    width: 100% !important;
-  }
-
-  .row {
+  .footer-inside {
     margin: 0px !important;
-  }
-
-  label img {
-    width: 20px;
-  }
-
-  .container {
+    border-radius: 0px !important;
     padding: 0px !important;
   }
-
-  .violet-box {
-    width: auto !important;
-    margin: 0px 5px;
+  .map-box iframe {
+    border-radius: 0px !important;
+    margin-top: 15px;
   }
-
-  .pad-0 {
-    padding: 0px !important;
-  }
-
-  .tab-border {
-    width: auto !important;
-    height: 36.7px !important;
-    transform: rotate(180deg) !important;
-    border: 1px solid #eaeaea;
-  }
-
-  .tabs-box {
-    transform: scale(0.9) !important;
-    border-radius: 8.5px !important;
-    width: 390px !important;
-    height: 44.9px !important;
-  }
-
-  .tab {
-    height: 42px !important;
+  .info p {
     font-size: 11px !important;
   }
-
-  .mob-none {
-    display: none;
-  }
-
-  .navbar-nav {
-    margin-top: 40%;
-  }
-
-  .tab-content {
-    display: none;
-  }
-
-  .tab-content.active {
-    display: block;
-  }
-
-  .panel-group .panel-heading a.collapsed:after {
-    position: relative !important;
-    right: -17px !important;
-    top: -14px !important;
-  }
-
-  .contact-part {
-    display: block !important;
-    text-align: inherit !important;
-    margin-top: 0px !important;
-  }
-
-  .image-left-align {
-    text-align: end;
-    margin-left: auto;
-    display: flex;
-  }
-
-  .contact-center-section {
-    margin: 50px 0px 20px 0px !important;
-    gap: 15px;
-  }
-
-  .mob-btn {
-    width: 175px !important;
-    height: 50px !important;
-    font-size: 16px !important;
-  }
-
-  .lg-view {
-    display: none !important;
-  }
-
-  .mb-view {
-    display: block !important;
-  }
-
-  .mob-none {
-    display: none !important;
-  }
-
-  .mob-display {
-    display: block !important;
-  }
-
-  .footer .panel-group .panel-heading a.collapsed:after {
-    position: unset !important;
-    right: inherit !important;
-    top: inherit !important;
-  }
-
-  #contact .contact-part {
-    display: block !important;
-  }
-
-  .contact-curve-img {
-    display: none !important;
-  }
-
-  .contact-card {
-    background-repeat: no-repeat;
-    background-size: cover !important;
-    background-position: center;
-    height: 200px !important;
-    padding: 20px !important;
+  .info-box {
     width: 100% !important;
-    position: relative;
-    margin-bottom: 50px;
   }
-
-  .contact-divison {
-    display: block !important;
-    margin-bottom: 30px !important;
-    padding: 0px 30px !important;
-  }
-
-  .comment-up {
-    top: 16px !important;
-  }
-
-  .contact-part {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
-  }
-
-  .mob-mb-50 {
-    margin-bottom: 50px;
-  }
-
-  .popup-container {
-    width: 96% !important;
-    z-index: 111;
-    padding: 10px !important;
-  }
-
-  .nav-container {
-    padding: 0px 0px !important;
-  }
-
-  .contact-center-section {
-    margin: 0px 0px 20px 0px !important;
-    gap: 3px;
-    font-size: 14px !important;
-  }
-
-  .mobile-banner {
-    justify-content: center !important;
-    gap: 20px !important;
-  }
-
-  .lg-none {
-    display: none !important;
-  }
-
-  .mob-justify-center {
-    justify-content: center;
-  }
-
-  .login-mob-link {
-    border-radius: 36px !important;
-    background: #402268;
-    width: 178px;
-    height: 48px;
-    flex-shrink: 0;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    color: white !important;
-    margin: 0px !important;
-  }
-
-  .mb-none {
-    display: none !important;
-  }
-
-  .total-schedule {
-    width: 100%;
-    margin-right: 0px !important;
-  }
-
-  .mobile-order-1 {
-    order: 1;
-  }
-
-  .test-container {
-    width: 200px;
-    overflow: hidden;
-  }
-
-  .comment-down {
-    top: 18px !important;
-  }
-
-  .mb-block {
-    display: block !important;
-  }
-
-  .download-space {
-    justify-content: center;
-    gap: 0px !important;
-    display: block !important;
-  }
-
-  .qr-code-section {
-    gap: 0px !important;
-    justify-content: center;
-  }
-
-  .line-border {
-    border-bottom: 1px solid #d8c2f3 !important;
-    margin-bottom: 20px;
-  }
-
-  .justify-mb-center {
-    justify-content: center;
-  }
-
-  .download-store {
-    display: none;
-  }
-
-  .mb-download-store {
-    display: flex !important;
-    margin: 20px 0px;
-    gap: 9px;
-    justify-content: center;
-  }
-
-  .btn-book {
-    margin-top: 30px;
-  }
-
-  .mob-mt10 {
-    margin-top: 10px !important;
-  }
-  .glow-text {
-    font-size: 25px !important;
-  }
-  .mobile-space {
-    margin-top: 20px !important;
-  }
-  .mobile-space img {
-    width: 150px;
-  }
-  .mobile-fs {
-    font-size: 26px !important;
-    text-align: center;
-  }
-  .mobile-fs-14 {
-    font-size: 14px !important;
-    text-align: center;
-  }
-  .mobile-fs-20 {
-    font-size: 20px !important;
-    text-align: center;
-  }
-  .mobile-view-img {
-    justify-content: center;
-    gap:20px !important;
-  }
-  .mobile-view-img img {
-    margin-left: 0px !important;
-    width: 90px !important;
-    height: 90px !important;
-  }
-  .mobile-res-button {
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-  }
-  .social-icon-mob {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  .social-icon-mob img {
-    width: 35px !important;
-    height: 35px !important;
-    margin-left: 0px !important;
-  }
-  .mobile-background {
-    position: relative!important;
-    height: 700px !important;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-  }
-  .mob-inside-video{
-    height: 94% !important;
-    top:35px!important;
-  }
-  .points-margin {
-    margin-top: 30px !important;
-  }
-  .burger-menu {
-    display: block !important;
-  }
-  .menu {
-    display: none !important;
-  }
-  .section-4 {
-    padding: 0px 10px;
-  }
-  .side-menu-home-bg {
-    background: #0a0118 !important;
-  }
-  .section-1 {
-    padding-top: 0px !important;
-    height:auto!important;
-  }
-  .coin-rotate {
-    display: none;
-  }
-  .radio-btn ul li label span {
-    font-size: 12px !important;
-  }
-  .radio-btn ul li label {
-    font-size: 16px !important;
-  }
-
-  .close-btn {
-    font-size: 12px !important;
-  }
-  .cookies-popup {
-    padding: 0px 10px !important;
-    gap: 15px;
-  }
-  .cookies-position {
-    width: 90% !important;
-  }
-  .map-size img {
-    width: 50px;
-  }
-  .map-size {
-    font-size: 10px;
-  }
-  .roadmap-wallet {
+  .recovery-step {
     padding: 0px !important;
+    img {
+      width: 100%;
+    }
   }
-  .roadmap-smartswap {
-    padding: 0px !important;
+  .about-header {
+    padding: 20px 10px !important;
   }
-  .roadmap-token {
-    padding-left: 25px !important;
+  .about-bottom {
+        padding: 0px 20px !important;
   }
-  .roadmap-sug {
-    padding-left: 3px !important;
+  .desc {
+    width: fit-content !important;
   }
-  .countdown {
-    gap: 40px !important;
-  }
-  .txt-shadow {
-    font-size: 30px !important;
-  }
-  .value {
-    font-size: 25px !important;
-    width: 55px !important;
-    height: 55px !important;
-  }
-  .tos-ul {
-    padding-left: 20px !important;
-  }
-  .img-position {
-    width: 70px !important;
-    height: 70px !important;
-    bottom: -1.5rem !important;
-    right: -1rem !important;
-  }
-  .img-position img {
-    width: 50px !important;
-  }
-  .font-sm-25 {
-    font-size: 25px !important;
-  }
-  .font-sm-15 {
-    font-size: 15px !important;
-  }
-  .contact-bg {
-    background-image: url(../images/Contact-bg-mob.png) !important;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 400px;
-    background-position: top;
-    padding: 70px 20px !important;
-  }
-  .plr-10 {
-    padding: 0px 10px;
-  }
-  .benefit-img-mob {
-    width: 90% !important;
-  }
-  .arrow-mob {
-    width: 30px !important;
-    height: 30px !important;
-  }
-  .progress-indicators {
-    gap: 8px !important;
-  }
-  .progress-line {
-    width: 20px !important;
-  }
-  .sub-heading-font {
-    font-size: 15px !important;
-  }
-  .sub-heading-width {
-    width: 90% !important;
-    font-size: 16px !important;
-    margin-bottom: 20px;
-  }
-  .lh-19 {
-    height: auto !important;
-  }
-  .heading-mob {
-    font-size: 22px !important;
-    padding: 0px 10px;
-  }
-  .mob-mb-20 {
-    margin-bottom: 20px;
-  }
-  .fixed-feature-bottom {
-    position: relative !important;
-  }
-  .vh-web-100 {
-    /* height: auto !important; */
-    overflow-y: scroll;
-  }
-  .ld-more-block {
+  .hero {
     display: block;
   }
-  .coming-soon-label {
-    display: table;
-    margin-top: 5px;
-    margin-left: 0px !important;
+  .doctor-card {
+    position: relative !important;
+    bottom: 0px !important;
+    left: 0px !important;
+   border-radius: 0px !important;
   }
-  .text-mob-left {
-    text-align: left;
+  .right-sec {
+    border-radius: 0px !important;
+}
+.section-prop {
+    display: contents !important;
+}
+.ws-1{
+      word-spacing: -1px;
+}
+
+ .nav {
+    position: fixed;    
+    top: 0;
+    right: -250px;      
+    height: 100vh;     
+    width: 250px;     
+    background-color: #F1F6FC;
+    padding: 10px 20px;
+    flex-direction: column;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: right 0.3s ease;
+    z-index: 9999;
+}
+
+
+  .nav.show {
+    right: 0;
   }
-  .font-sm-30 {
-    font-size: 30px !important;
+
+  .nav a {
+    margin: 12px 0;
+    display: block;
+    color: rgb(28 117 209);
   }
-  .gif-container{
-    width:70px!important;
-    height:70px!important;
-    top:-2.5rem!important;
+
+  .cta-btn {
+    display: none;
   }
-  .gif-container img{
-    width:60px!important;
-    height:60px!important;
+
+  .hamburger {
+    display: flex;
   }
-  .mobile-qr{
-    width:140px!important;
+  .close-btn {
+    font-size: 38px;
+    font-weight: bold;
+    color: #2B65D9;    
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: right;
+    display: block !important;
+}
+.test-pad{
+  padding: 0px !important;
+}
+.thumb {
+      margin-top: 10px;
+}
+.thumb-row {
+    grid-template-columns: repeat(6, 1fr) !important;
+    overflow: scroll;
+}
+.mobile-view {
+        margin-top: 30px;
+        position: absolute;
+        bottom: 20px;
+        width: 200px;
+        height: 50px;
+        display: flex !important;
+        align-items: center;
+  a{
+  color: white !important;
   }
 }
-@media screen and (min-width: 768px) {
-  .roadmap {
-    padding-left: 0px;
-  }
-  .roadmap-wallet {
-    padding-left: 10px;
-    padding-right: 0px;
-  }
-  .roadmap-airdrop {
-    padding-right: 30px;
-  }
-  .roadmap-smartswap {
-    padding-right: 7rem;
-  }
-  .roadmap-token {
-    padding-right: 5rem;
-    padding-left: 0px;
-  }
+.header {
+  justify-content: space-between;
+    right: 0;
+    align-items: center;
+    padding: 20px 20px;
+}
+.choose-img-height {
+      height: fit-content !important;
+}
+.scroll-top-btn {
+  z-index: 99 !important;
+}
 }
 @media (min-height: 690px) {
-  .fixed-footer-section {
-    position: fixed !important;
-  }
-  .coming-soon-bg {
-    height: 100vh !important;
-  }
+
 }
-@media (max-height:630px) and (min-width:1024px){
-.vh-web-100{
-  height:auto!important;
-}
-.fixed-feature-bottom{
-position:relative !important;
-}
+@media (max-height: 630px) and (min-width: 1024px) {
+
 }
