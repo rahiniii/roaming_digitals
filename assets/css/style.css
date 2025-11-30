@@ -1361,3 +1361,6 @@ ul.tick-list li::before {
 .large-view {
   display: block;
 }
+.dtn-none {
+  display: block;
+}
