@@ -121,6 +121,9 @@
   color: white !important;
   }
 }
+.large-view {
+  display: none !important;
+}
 .cta-btn {
     padding: 10px 11px !important;
 }

@@ -1358,3 +1358,6 @@ ul.tick-list li::before {
 .choose-img-height {
       height: 615px;
 }
+.large-view {
+  display: block;
+}
