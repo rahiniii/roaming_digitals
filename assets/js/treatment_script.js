@@ -2,43 +2,44 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const listItems = document.querySelectorAll(".treatment-list li");
     const thumbs = document.querySelectorAll(".thumb");
+    const thumbRow = document.querySelector(".thumb-row");
 
-    // When selecting treatment from LEFT list
+    // LEFT CLICK
     listItems.forEach(item => {
         item.addEventListener("click", () => {
+            const img = item.dataset.img;
 
-            // remove active from all
+            // remove active states
             listItems.forEach(li => li.classList.remove("active"));
             thumbs.forEach(t => t.classList.remove("active"));
 
-            // mark selected item
             item.classList.add("active");
-
-            // find matching thumbnail
-            const img = item.dataset.img;
 
             thumbs.forEach(t => {
                 if (t.dataset.img === img) {
+
                     t.classList.add("active");
+
+                    // move this thumb to first
+                    thumbRow.prepend(t);
                 }
             });
         });
     });
 
-
-    // When selecting thumbnail on RIGHT
+    // RIGHT CLICK
     thumbs.forEach(thumb => {
         thumb.addEventListener("click", () => {
+            const img = thumb.dataset.img;
 
-            // remove active from all
+            // remove active states
             thumbs.forEach(t => t.classList.remove("active"));
             listItems.forEach(li => li.classList.remove("active"));
 
-            // mark selected thumbnail
             thumb.classList.add("active");
 
-            // find matching LEFT list item
-            const img = thumb.dataset.img;
+            // move clicked thumb first
+            thumbRow.prepend(thumb);
 
             listItems.forEach(li => {
                 if (li.dataset.img === img) {
